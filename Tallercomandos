@@ -1,0 +1,22 @@
+Obtén el tamaño, en megas, ocupado por la carpeta linux. 
+- Obtén las 15 primeras líneas del archivo contact.plates.k y guárdalas en un nuevo archivo llamado newfile.txt
+- Edita el archivo con uno de los editores propuestos (vim o nano):
+- Elimina la línea completa Last Modified
+- Inserta, antes de Units: mm,s, una línea con el siguiente contenido: 
+   $   Espacio ocupado: x M (sustituye la x por el valor obtenido en el primer punto). 
+
+- Guarda el archivo con los cambios realizados. 
+- Mueve el archivo a la carpeta linux.
+
+Obtener peso de carpeta en megas:   du ./Documents/linux/ejemplos -m
+Obtener primeras 15 lineas:  head -n 15 /home/usuario/Documents/linux/ejemplos/contact.plates.k
+crear archivo de texto:  cat > newfile.txt
+Abrir archivos:   vim newfile.txt
+Guardar con Vim:  wq
+Abrir archivo:   nano filename
+mover archivos:  mv newfile.txt  /home/usuario/Documents/linux
+
+
+
+
+
